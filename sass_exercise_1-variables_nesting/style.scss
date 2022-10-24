@@ -1,6 +1,6 @@
 
 $color-primary: red;
-$color-secundary: blue;
+$color-secondary: blue;
 $color-tertiary: green;
 
 
@@ -32,7 +32,7 @@ div {
             color:$color-primary;
         }
         article:nth-child(even){
-            color:$color-secundary;
+            color:$color-secondary;
         }
         .primo{
             border-left: 1px solid $color-tertiary ;
