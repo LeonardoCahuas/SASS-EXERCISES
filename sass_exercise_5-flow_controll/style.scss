@@ -52,6 +52,41 @@ div {
             text-align: center;
             margin-bottom: function.rem(15);
         }
+    
+  
+    .numbers{
+      display: flex;
+      flex-direction: row;
+      gap: 1.85vw;
+      margin:20px;
+      
+      div{
+        width: function.rem(45);
+        height: function.rem(45);
+      }
+      $sizes: 1rem, 2rem, 3rem;
+
+      @each $size in $sizes {
+        .fs-#{$size} {
+          font-size: $size;
+        }
+      }
+      @for $index from 1 to 20{
+        @if $index == 10{
+          div:nth-child(#{$index}){
+            background-color: blue;
+            color: red;
+          }
+        }
+        @else{
+          div:nth-child(#{$index}){
+            color: rgb($index * 13, $index *13, $index *13);
+            background-color: rgb(255-$index *13, 255-$index *13, 255-$index *13);
+          }
+        }
+      }
+      
+    }
 
 }
 

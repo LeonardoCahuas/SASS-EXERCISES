@@ -1,0 +1,141 @@
+div {
+  border: 0.0625rem solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div h2, div h1 {
+  color: green;
+  text-decoration: underline;
+  text-decoration-color: purple;
+}
+div h2 {
+  padding: 1rem;
+  border: 1px solid red;
+}
+div #articles {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 0.9375rem;
+}
+div #articles article:nth-child(odd) {
+  font-size: 1rem;
+  border: 0.0625rem solid green;
+  color: red;
+  padding: 0.9375rem;
+  width: 20%;
+}
+div #articles article:nth-child(even) {
+  font-size: 1rem;
+  border: 0.0625rem solid green;
+  color: blue;
+  padding: 0.9375rem;
+  width: 20%;
+}
+div .footer-article {
+  font-size: 1.5rem;
+  border: 0.0625rem solid blue;
+  color: green;
+  padding: 0.9375rem;
+  width: calc(80vw + 5rem);
+  text-align: center;
+  margin-bottom: 0.9375rem;
+}
+div .numbers {
+  display: flex;
+  flex-direction: row;
+  gap: 1.85vw;
+  margin: 20px;
+}
+div .numbers div {
+  width: 2.8125rem;
+  height: 2.8125rem;
+}
+div .numbers .fs-1rem {
+  font-size: 1rem;
+}
+div .numbers .fs-2rem {
+  font-size: 2rem;
+}
+div .numbers .fs-3rem {
+  font-size: 3rem;
+}
+div .numbers div:nth-child(1) {
+  color: rgb(13, 13, 13);
+  background-color: rgb(242, 242, 242);
+}
+div .numbers div:nth-child(2) {
+  color: rgb(26, 26, 26);
+  background-color: rgb(229, 229, 229);
+}
+div .numbers div:nth-child(3) {
+  color: rgb(39, 39, 39);
+  background-color: rgb(216, 216, 216);
+}
+div .numbers div:nth-child(4) {
+  color: rgb(52, 52, 52);
+  background-color: rgb(203, 203, 203);
+}
+div .numbers div:nth-child(5) {
+  color: rgb(65, 65, 65);
+  background-color: rgb(190, 190, 190);
+}
+div .numbers div:nth-child(6) {
+  color: rgb(78, 78, 78);
+  background-color: rgb(177, 177, 177);
+}
+div .numbers div:nth-child(7) {
+  color: rgb(91, 91, 91);
+  background-color: rgb(164, 164, 164);
+}
+div .numbers div:nth-child(8) {
+  color: rgb(104, 104, 104);
+  background-color: rgb(151, 151, 151);
+}
+div .numbers div:nth-child(9) {
+  color: rgb(117, 117, 117);
+  background-color: rgb(138, 138, 138);
+}
+div .numbers div:nth-child(10) {
+  background-color: blue;
+  color: red;
+}
+div .numbers div:nth-child(11) {
+  color: rgb(143, 143, 143);
+  background-color: rgb(112, 112, 112);
+}
+div .numbers div:nth-child(12) {
+  color: rgb(156, 156, 156);
+  background-color: rgb(99, 99, 99);
+}
+div .numbers div:nth-child(13) {
+  color: rgb(169, 169, 169);
+  background-color: rgb(86, 86, 86);
+}
+div .numbers div:nth-child(14) {
+  color: rgb(182, 182, 182);
+  background-color: rgb(73, 73, 73);
+}
+div .numbers div:nth-child(15) {
+  color: rgb(195, 195, 195);
+  background-color: rgb(60, 60, 60);
+}
+div .numbers div:nth-child(16) {
+  color: rgb(208, 208, 208);
+  background-color: rgb(47, 47, 47);
+}
+div .numbers div:nth-child(17) {
+  color: rgb(221, 221, 221);
+  background-color: rgb(34, 34, 34);
+}
+div .numbers div:nth-child(18) {
+  color: rgb(234, 234, 234);
+  background-color: rgb(21, 21, 21);
+}
+div .numbers div:nth-child(19) {
+  color: rgb(247, 247, 247);
+  background-color: rgb(8, 8, 8);
+}
+
+/*# sourceMappingURL=style.css.map */

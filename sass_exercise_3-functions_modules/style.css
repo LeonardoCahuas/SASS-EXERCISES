@@ -15,6 +15,9 @@ div #articles {
   justify-content: center;
   margin-bottom: 0.9375rem;
 }
+div #articles article {
+  width: 20%;
+}
 div #articles article:nth-child(odd) {
   font-size: 1rem;
   border: 0.0625rem solid green;
