@@ -15,29 +15,35 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 
-    
-      h1 {
+      %text{
         color: variables.$color-tertiary; 
         text-decoration: underline;
         text-decoration-color: purple;       
       }
+      h1{
+        @extend %text;
+      }
+      h2{
+        @extend %text;
+        padding: 1rem;
+        border: 1px solid red;
+      }
+      
       #articles{
         display: flex;
         flex-direction: row;
         justify-content: center;
         margin-bottom: function.rem(15);
-        article{
-            width:20%;
-            &:nth-child(odd){
-                @include article-card(variables.$color-primary, variables.$color-tertiary, variables.$articles-font-size);
-                width: 20%;
-            }
-            &:nth-child(even){
-                @include article-card(variables.$color-secondary, variables.$color-tertiary, variables.$articles-font-size);
-                width: 20%;
-            }
+
+        article:nth-child(odd){
+            @include article-card(variables.$color-primary, variables.$color-tertiary, variables.$articles-font-size);
+            width: 20%;
+        }
+
+        article:nth-child(even){
+            @include article-card(variables.$color-secondary, variables.$color-tertiary, variables.$articles-font-size);
+            width: 20%;
         }
         }
         .footer-article{
