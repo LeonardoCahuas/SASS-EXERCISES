@@ -4,7 +4,7 @@ div {
   flex-direction: column;
   align-items: center;
 }
-div h2, div h1 {
+div h1, div h2 {
   color: green;
   text-decoration: underline;
   text-decoration-color: purple;
@@ -19,19 +19,17 @@ div #articles {
   justify-content: center;
   margin-bottom: 0.9375rem;
 }
-div #articles article:nth-child(odd) {
+div #articles article {
   font-size: 1rem;
   border: 0.0625rem solid green;
-  color: red;
   padding: 0.9375rem;
   width: 20%;
 }
+div #articles article:nth-child(odd) {
+  color: red;
+}
 div #articles article:nth-child(even) {
-  font-size: 1rem;
-  border: 0.0625rem solid green;
   color: blue;
-  padding: 0.9375rem;
-  width: 20%;
 }
 div .footer-article {
   font-size: 1.5rem;
